@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.hehe ul{
+    display: flex;
+    flex-direction: row;
+    margin: 4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    padding: 1rem;
+    color: black;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+#visual{
+    display: flex;
+    justify-self: center;
+    border-radius: 20px;
+    height:100px
+}
